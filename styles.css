@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px;
+  width: 1000px;
+}
+.container {
+  width: min(100% - 40px, 1340px);
+  margin-inline: auto;
+}
+.nav {
+  width: 420px;
+  border: 5px solid yellow;
+  text-align: center;
+}
+p {
+  color: #515151;
+  font-size: 16px;
+}
+ul {
+  color: #515151;
+  font-weight: 400;
+  font-size: 16px;
+}
+ol {
+  color: #515151;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.parent {
+  height: 350px;
+  width: 850px;
+  background-color: yellow;
+  padding: 25px;
+}
+.child {
+  height: 300px;
+  width: 800px;
+  padding: 20px;
+  background-color: white;
+  border: 25px;
+  border-radius: 5%;
+  display: flex;
+}
+
+.photo {
+  width: 1000px;
+  justify-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+.product {
+  width: 300px;
+
+  padding: 10px;
+  text-align: justify;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+}
+
+.center {
+  justify-content: center;
+  align-content: center;
+  width: 400px;
+  height: 300px;
+  padding-right: 20px;
+}
+
+.border {
+  border: 15px yellow solid;
+  border-radius: 10%;
+}
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+}
+.aboutus {
+  width: 500px;
+  text-align: justify;
+  padding: 10px;
+}
+.pcenter {
+  text-align: center;
+}
+.indexpar {
+  width: 850px;
+  text-align: justify;
+}
+
+.footercontainer {
+  width: 850px;
+  height: 150px;
+  background-color: yellow;
+  padding: 20px;
+}
+.footer {
+  width: 800px;
+  height: 100px;
+  background-color: white;
+  border: 25px;
+  border-radius: 5%;
+  padding: 20px;
+  text-align: center;
+  align-content: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+.form {
+  width: 750px;
+  text-align: center;
+  align-content: center;
+}
+.bcenter {
+  align-content: center;
+  text-align: center;
+}
